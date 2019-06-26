@@ -4,7 +4,7 @@
 
     $user = $_SESSION['user'] ?? null;
 
-    if (!$user) {
+    if (!$user) {                         // se esta sessão não existir ele vai para tela login.php
         header('location: login.php');
         exit;
     }
