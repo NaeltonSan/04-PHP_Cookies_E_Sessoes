@@ -11,3 +11,5 @@
 ?>
 
 <h1>Página protegida.</h1>
+
+<p>Olá <?php echo $user['email']?> !</p>
